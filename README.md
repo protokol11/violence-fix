@@ -61,6 +61,15 @@ human decides     ─► no self-certification; the re-check informs, you close
 The three skills ship as `to-violations` (with the `PRINCIPLES.md` catalog),
 `violent-subagent`, and `violent`.
 
+## Quick start
+
+```sh
+git clone https://github.com/protokol11/violence-fix.git
+cp -r violence-fix/to-violations violence-fix/violent violence-fix/violent-subagent ~/.agents/skills/
+```
+
+In pi: `/skill:to-violations` turns review findings into fix specs. Details below.
+
 ## Install
 
 Prerequisites: None, beyond an agent runtime that loads skills from
